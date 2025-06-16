@@ -1,5 +1,6 @@
 from matplotlib_venn import venn2
 import matplotlib.pyplot as plt
+import pickle
 
 with open('MetaboLights_InChIKeys.pkl', 'rb') as f:
     ml = pickle.load(f)
