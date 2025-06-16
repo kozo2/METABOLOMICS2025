@@ -1,4 +1,6 @@
 import numpy as np
+import pickle
+import matplotlib.pyplot as plt
 
 with open('ratio_values.pkl', 'rb') as f:
     arr = pickle.load(f)
