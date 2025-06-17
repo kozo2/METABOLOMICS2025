@@ -8,4 +8,5 @@ with open('integmet_df_subset.pkl', 'rb') as f:
 plt.figure()
 sns.heatmap(df, cmap="crest", xticklabels=False, yticklabels=False)
 plt.savefig("heatmap_integmet_df_subset.png")
+# plt.savefig("heatmap_output.png", dpi=300, bbox_inches='tight')
 plt.close()
